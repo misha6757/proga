@@ -37,10 +37,10 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int k, faz;
+            double k, faz;
             string sum;
             sum = label1.Text;
-            int.TryParse(sum, out k);
+            double.TryParse(sum, out k);
             faz = k / 3;
             label2.Text = faz.ToString();
 
